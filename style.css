@@ -144,19 +144,8 @@ REUSABLE SELECTOR
     font-size: 1.75em;
     padding: 0 0.75em 0 0;
 }
-
-
 .mobile-hide {
     display: none;
-}
-
-.carousel-item {
-    max-height: 180em;
-}
-#testimonials-carousel img {
-    position: absolute;
-    width: var(--percent100);
-    display: block;
 }
 .products .media {
     position: relative;
@@ -209,7 +198,6 @@ REUSABLE SELECTOR
 /* ------------------
  * Structure Styling 
     00. Reusable selectors
-
     01. HEADER
         a. Header Top
         b. Header Nav
@@ -356,14 +344,13 @@ nav .fly-item {
     top: 50%;
     margin-top: -24px;
     width: 35px;
-    /* width: 30px; */
     border-radius: 3px;
     right: -32px;
     background-color: var(--primary-color);
 }
 .header-nav .right {
     position: relative;
-    margin: auto;
+    margin: auto 30px auto auto;
 }
 .header-nav .right .icon-large {
     position: relative;
@@ -405,7 +392,7 @@ nav .fly-item {
     background-color: var(--primary-color);
     border-radius: 7px 7px 0 0;
     color: var(--white-color);
-    margin-bottom: -2.15em;
+    margin-bottom: -2.10em;
 }
 .dpt-cat .dpt-head .mini-text {
     color: var(--light-bg-color);
@@ -732,7 +719,6 @@ form.search button:hover {
         padding: 0 1.5em;
         border-bottom: 1px solid var(--border-color);
     }
-
     .dpt-menu .has-child > ul, .dpt-menu .mega {
         position: absolute;
         top: 0;
